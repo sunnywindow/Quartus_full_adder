@@ -1,0 +1,121 @@
+|adder4
+s0 <= full_adder:inst2.sum
+a0 => full_adder:inst2.ain
+b0 => full_adder:inst2.bin
+cin => full_adder:inst2.cin
+s1 <= full_adder:inst.sum
+a1 => full_adder:inst.ain
+b1 => full_adder:inst.bin
+s2 <= full_adder:inst1.sum
+a2 => full_adder:inst1.ain
+b2 => full_adder:inst1.bin
+cout <= full_adder:inst3.cout
+a3 => full_adder:inst3.ain
+b3 => full_adder:inst3.bin
+s3 <= full_adder:inst3.sum
+
+
+|adder4|full_adder:inst2
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+ain => half_adder:inst.a
+bin => half_adder:inst.b
+cin => half_adder:inst2.b
+sum <= half_adder:inst2.s
+
+
+|adder4|full_adder:inst2|half_adder:inst2
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4|full_adder:inst2|half_adder:inst
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4|full_adder:inst
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+ain => half_adder:inst.a
+bin => half_adder:inst.b
+cin => half_adder:inst2.b
+sum <= half_adder:inst2.s
+
+
+|adder4|full_adder:inst|half_adder:inst2
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4|full_adder:inst|half_adder:inst
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4|full_adder:inst1
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+ain => half_adder:inst.a
+bin => half_adder:inst.b
+cin => half_adder:inst2.b
+sum <= half_adder:inst2.s
+
+
+|adder4|full_adder:inst1|half_adder:inst2
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4|full_adder:inst1|half_adder:inst
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4|full_adder:inst3
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+ain => half_adder:inst.a
+bin => half_adder:inst.b
+cin => half_adder:inst2.b
+sum <= half_adder:inst2.s
+
+
+|adder4|full_adder:inst3|half_adder:inst2
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4|full_adder:inst3|half_adder:inst
+co <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst.IN0
+a => inst2.IN0
+b => inst.IN1
+b => inst2.IN1
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

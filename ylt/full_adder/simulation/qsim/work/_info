@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA/sy1/ylt/full_adder/simulation/qsim
+vadder4
+!s110 1679450900
+!i10b 1
+!s100 ^:T:F7@PKJ=QIKJU>SJPe1
+IJfb6ZO?hFjiZaSX4c@5XJ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1679450900
+Z3 8half_adder.vo
+Z4 Fhalf_adder.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1679450900.000000
+Z8 !s107 half_adder.vo|
+Z9 !s90 -work|work|half_adder.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vadder4_vlg_vec_tst
+Z12 !s110 1679450901
+!i10b 1
+!s100 S0zJ:O]dBY:1?cjX1nQ5Q2
+I0^c1^4RKd[:O>iko?16[?1
+R1
+R0
+w1679450899
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z13 L0 29
+R6
+r1
+!s85 0
+31
+!s108 1679450901.000000
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+vfull_adder
+Z14 !s110 1679409141
+!i10b 1
+!s100 l?N<WiANNhhM3X2_W@;ET3
+IobMcifBjT>bD2fizoDzen3
+R1
+R0
+w1679409140
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z15 !s108 1679409141.000000
+R8
+R9
+!i113 1
+R10
+R11
+vfull_adder_vlg_vec_tst
+R14
+!i10b 1
+!s100 D]O?FZ:Enm:Q2i>>GKm^:0
+IUimoP@g;haEZG^4OW9@Xg2
+R1
+R0
+w1679409139
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vhalf_adder
+Z16 !s110 1679407154
+!i10b 1
+!s100 2M4]B36X<z205g7QVCLlO1
+IWDbM^Ij1_kC8nSn;27RS=2
+R1
+R0
+w1679407151
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1679407154.000000
+R8
+R9
+!i113 1
+R10
+R11
+vhalf_adder_vlg_vec_tst
+R16
+!i10b 1
+!s100 8k;3@NoiE=:6lhNW9SUgg1
+ITHeVHz4jk2FDWih0W?COP1
+R1
+R0
+w1679407150
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R13
+R6
+r1
+!s85 0
+31
+R17
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R12
+!i10b 1
+!s100 GE?JmX[elHSd0IaG0DXU72
+ILll:W6mHBB0Pc_AOm^eWT2
+R1
+R0
+R2
+R3
+R4
+L0 421
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
